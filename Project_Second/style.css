@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(129, 107, 107);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#result {
+    height: 50px;
+    width: 280px;
+    text-align: center;
+    border: 0.5px solid black;
+}
+
+#height {
+    outline: none;
+}
+
+#weight {
+    outline: none;
+}
+
+span {
+    display: block;
+}
